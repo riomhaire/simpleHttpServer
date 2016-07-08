@@ -1,0 +1,11 @@
+port: 8080
+
+mappings:
+    - uri: /api/v1/test
+      file: /tmp/a.json
+
+    - uri: /api/v1/echo
+      file: /tmp/b.json
+
+    - uri: /api/v1/echo/c
+      file: /tmp/c.json
